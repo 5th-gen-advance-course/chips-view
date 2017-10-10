@@ -14,6 +14,7 @@ public class Contact {
     public Contact(String number, String name) {
         this.number = number;
         this.name = name;
+        this.image="http://knongdai.com/resources/upload/3ae5bb05-9a6b-4e72-bffc-0de3894b7b61.jpg";
     }
 
     public String getImage() {

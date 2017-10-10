@@ -11,13 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btn_chips_view"
-        android:text="chips View"
-        android:onClick="onChipsView"/>
+        android:text="chips View"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btn_chips_input"
-        android:text="chips View"
-        android:onClick="onChipsInput"/>
+        android:text="chips View"/>
 
 </LinearLayout>

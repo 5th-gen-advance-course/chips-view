@@ -12,10 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cv_text_hint="this is the hint text"
-        app:cv_chips_margin="5dp"/>
+        app:cv_chips_margin="5dp"
+        app:cv_max_height="100dp"
+        android:padding="5dp"/>
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/contact_rc"
+        android:id="@+id/rc_contact"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="5dp"/>

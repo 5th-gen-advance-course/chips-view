@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    card_view:cardElevation="0dp">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ch_selection"
+            android:layout_gravity="center"/>
+
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/civ_contact_image"
             android:layout_width="100px"
             android:layout_height="100px"
-            android:src="@drawable/the_rock" />
+            android:src="@drawable/the_rock"
+            android:layout_gravity="center"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tv_contact_name"
             android:layout_marginLeft="10dp"
             android:text="the rock"
-            android:textSize="14pt"
+            android:textSize="9pt"
             android:layout_gravity="center"/>
     </LinearLayout>
+
 </android.support.v7.widget.CardView>
